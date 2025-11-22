@@ -1,0 +1,24 @@
+[project]
+name = "hackathonlabragapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.95.0",
+    "uvicorn[standard]>=0.22.0",
+    "tinydb>=4.7.0",
+    "python-dotenv>=1.0.0",
+    "pydantic-settings>=2.0.0",
+    "pyjwt>=2.8.0",
+    "passlib[bcrypt]>=1.7.4",
+    "langchain-google-genai>=0.0.1",
+    "langchain>=0.1.0",
+    "langgraph>=0.0.1",
+    "serpapi",
+    "bcrypt==4.3.0",
+    "chromadb>=0.4.0",
+    "sentence-transformers>=2.2.2",
+    "pypdf2>=3.0.0",
+    "python-multipart>=0.0.20",
+]
