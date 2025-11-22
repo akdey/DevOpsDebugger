@@ -1,4 +1,4 @@
-# HackathonLabRAGApp
+# DevOpsDebugger Bot Backend
 
 Basic FastAPI scaffold.
 
@@ -22,7 +22,7 @@ pip install -e .
 
 ### 2. Configure environment variables
 
-Copy `.env.example` to `.env` and fill in your API keys:
+Copy `env` to `.env` and fill in your API keys:
 
 ```powershell
 cp .env.example .env
@@ -192,6 +192,7 @@ Notes:
 - All API endpoints require authentication via `Authorization: Bearer <token>` header.
 - Document management is restricted to admin users only.
 - Both admin and regular users can query documents and use the chatbot.
+
 
 
 
